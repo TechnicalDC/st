@@ -1,5 +1,6 @@
-# st
-My own st build
+# st - My own st build
+
+st is a simple terminal implementation for X.
 
 ## Patches applied
 
@@ -17,6 +18,7 @@ My own st build
 
 ```bash
 git clone https://github.com/TechnicalDC/st
+cd st
 make
 sudo make install
 ```
