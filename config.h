@@ -1,21 +1,21 @@
-/* See LICENSE file for copyright and license details. */
+/*					  __     __						*/
+/* .-----.--.--.----.|  |--.|  |.-----.-----.-----. */
+/* |__ --|  |  |  __||    < |  ||  -__|__ --|__ --| */
+/* |_____|_____|____||__|__||__||_____|_____|_____| */
+                                                
 
-/*
- * appearance
- *
- * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
- */
-static char *font = "SauceCode Pro Nerd Font Mono:style=Regular:pixelsize=13";
-/* static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true"; */
+/* appearance */
+static char *font = "FantasqueSansMono Nerd Font Mono:style=Regular:pixelsize=13";
+/* static char *font = "SauceCode Pro Nerd Font Mono:style=Regular:pixelsize=13"; */
 /* Spare fonts */
 static char *font2[] = {
-	"Symbola:pixelsize=15:antialias=true:autohint=true", // Unicode
-	"IPAGothic:pixelsize=15:antialias=true:autohint=true", // Japanese
-	"Unifont:style=Regular:pixelsize=10:antialias=true:autohint=true", // Unicode
-	"JoyPixels:style=Regular:pixelsize=10:antialias=true:autohint=true", // Emoji
+	"Symbola:pixelsize=15:antialias=true:autohint=true",					// Unicode
+	"IPAGothic:pixelsize=15:antialias=true:autohint=true",					// Japanese
+	"Unifont:style=Regular:pixelsize=10:antialias=true:autohint=true",		// Unicode
+	"JoyPixels:style=Regular:pixelsize=10:antialias=true:autohint=true",	// Emoji
 };
 
-static int borderpx = 10;
+static int borderpx = 20;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -112,10 +112,10 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 8;
+unsigned int tabspaces = 4;
 
 /* bg opacity */
-float alpha = 0.9;
+float alpha = 1.0;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
