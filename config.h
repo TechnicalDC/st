@@ -5,7 +5,8 @@
                                                 
 
 /* appearance */
-static char *font = "FantasqueSansMono Nerd Font Mono:style=Regular:pixelsize=13";
+static char *font = "Iosevka Nerd Font:style=Regular:pixelsize=13";
+// static char *font = "FantasqueSansMono Nerd Font Mono:style=Regular:pixelsize=13";
 /* static char *font = "SauceCode Pro Nerd Font Mono:style=Regular:pixelsize=13"; */
 /* Spare fonts */
 static char *font2[] = {
